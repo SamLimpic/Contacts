@@ -10,7 +10,7 @@ let contacts = []
  * *** push: resources/push.jpg
  */
 
- // #region SECTION 2
+// #region SECTION 2
 function addContact(event) {
   event.preventDefault()
   let form = event.target
@@ -59,7 +59,7 @@ function loadContacts() {
  * contacts in the contacts array
  */
 
- // #region SECTION 5
+// #region SECTION 5
 function drawContacts() {
   let contactListElement = document.getElementById("contact-list")
   let contactsTemplate = ""
