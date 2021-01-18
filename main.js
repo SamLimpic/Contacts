@@ -14,7 +14,6 @@ let contacts = []
 function addContact(event) {
   event.preventDefault()
   let form = event.target
-
   let contact = {
     id: generateId(),
     name: form.name.value,
