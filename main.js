@@ -58,7 +58,7 @@ function loadContacts() {
  * contacts in the contacts array
  */
 
-// #region SECTION 5
+// #region SECTION 5cd
 function drawContacts() {
   let contactListElement = document.getElementById("contact-list")
   let contactsTemplate = ""
